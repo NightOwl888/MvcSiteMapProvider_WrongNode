@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<p>@Html.ActionLink("Go to Page Action1 Type1", "Action1", "Controller", new { type = "Type1" }, null)</p>
+<p>@Html.ActionLink("Go to Page Action2 Type1", "Action2", "Controller", new { type = "Type1" }, null)</p>
+<p>@Html.ActionLink("Go to Page Action1 Type2", "Action1", "Controller", new { type = "Type2" }, null)</p>
+<p>@Html.ActionLink("Go to Page Action2 Type2", "Action2", "Controller", new { type = "Type2" }, null)</p>
+
+<p>
+    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+</p>
